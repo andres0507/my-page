@@ -90,3 +90,17 @@ footer i {
   font-size: 2rem;
 
 }
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  body {
+    width: 100%;
+    max-width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+}
